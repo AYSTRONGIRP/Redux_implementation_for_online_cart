@@ -6,7 +6,6 @@ const Header = () => {
     <div className='header'>
         <div>Online Store</div>
         <Cart/>
-
     </div>
   )
 }

@@ -6,11 +6,11 @@ const Items = () => {
   const items = useSelector((state) => state.items.items); // Access nested items array
   const dispatch = useDispatch();
 
-  console.log(items); // Log the actual items array
+  console.log(items); // Log the actual items arrayRedux_application_for cart\src\assets\items.json
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('src\\assets\\items.json');
+      const response = await fetch('Redux_application_for cart\src\assets\items.json');
       const data = await response.json();
       dispatch(addItems(data));
     };
