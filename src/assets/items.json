@@ -1,0 +1,29 @@
+{
+    "cart": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "price": 999.99,
+        "quantity": 0
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 399.99,
+        "quantity": 0
+      },
+      {
+        "id": 3,
+        "name": "Headphones",
+        "price": 79.99,
+        "quantity": 0
+      },
+      {
+        "id": 4,
+        "name": "Coffee Maker",
+        "price": 49.99,
+        "quantity": 0
+      }
+    ]
+  }
+  
